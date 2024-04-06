@@ -1,7 +1,7 @@
 {
   "name": "nostradamus-landing",
   "version": "0.1.0",
-  "homepage": "https://github.com/Code-Nostradamus/nostradamus-landing",
+  "homepage": "https://code-nostradamus.github.io/nostradamus-landing",
   "private": true,
   "dependencies": {
     "@types/node": "^15.14.9",
