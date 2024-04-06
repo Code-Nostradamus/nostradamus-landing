@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://code-nostradamus.github.io/nostradamus-landing/static/css/main.47c8eccf.css",
-    "main.js": "https://code-nostradamus.github.io/nostradamus-landing/static/js/main.c9fd919a.js",
+    "main.js": "https://code-nostradamus.github.io/nostradamus-landing/static/js/main.ad2ffd44.js",
     "static/js/882.b7cd400d.chunk.js": "https://code-nostradamus.github.io/nostradamus-landing/static/js/882.b7cd400d.chunk.js",
     "static/js/676.97fe9f7b.chunk.js": "https://code-nostradamus.github.io/nostradamus-landing/static/js/676.97fe9f7b.chunk.js",
     "static/js/416.a9e41c58.chunk.js": "https://code-nostradamus.github.io/nostradamus-landing/static/js/416.a9e41c58.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/886.b75b94fb.chunk.js": "https://code-nostradamus.github.io/nostradamus-landing/static/js/886.b75b94fb.chunk.js",
     "index.html": "https://code-nostradamus.github.io/nostradamus-landing/index.html",
     "main.47c8eccf.css.map": "https://code-nostradamus.github.io/nostradamus-landing/static/css/main.47c8eccf.css.map",
-    "main.c9fd919a.js.map": "https://code-nostradamus.github.io/nostradamus-landing/static/js/main.c9fd919a.js.map",
+    "main.ad2ffd44.js.map": "https://code-nostradamus.github.io/nostradamus-landing/static/js/main.ad2ffd44.js.map",
     "882.b7cd400d.chunk.js.map": "https://code-nostradamus.github.io/nostradamus-landing/static/js/882.b7cd400d.chunk.js.map",
     "676.97fe9f7b.chunk.js.map": "https://code-nostradamus.github.io/nostradamus-landing/static/js/676.97fe9f7b.chunk.js.map",
     "416.a9e41c58.chunk.js.map": "https://code-nostradamus.github.io/nostradamus-landing/static/js/416.a9e41c58.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.47c8eccf.css",
-    "static/js/main.c9fd919a.js"
+    "static/js/main.ad2ffd44.js"
   ]
 }
