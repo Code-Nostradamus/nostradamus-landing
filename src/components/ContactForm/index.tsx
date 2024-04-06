@@ -25,7 +25,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
   };
 
   return (
-    <ContactContainer id={id}>
+    <ContactContainer id={id} hidden={true}>
       <Row justify="space-between" align="middle">
         <Col lg={12} md={11} sm={24} xs={24}>
           <Slide direction="left">

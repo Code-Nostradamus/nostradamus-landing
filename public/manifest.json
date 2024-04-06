@@ -1,21 +1,16 @@
 {
-  "short_name": "Landy",
-  "name": "Landy - React Template",
+  "short_name": "Nostradamus",
+  "name": "Nostradamus - Unlock the Future of Your Codebase",
   "icons": [
     {
-      "src": "img/icons/logo192.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "img/icons/favicon.png",
+      "sizes": "32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "img/icons/logo192.png",
+      "src": "img/icons/logo1200.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "img/icons/logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1024x1024 512x512 192x192 64x64"
     }
   ],
   "start_url": ".",

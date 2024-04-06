@@ -48,10 +48,18 @@ const Header = ({ t }: any) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => scrollTo("footer")}
         >
           <Span>
             <Button>{t("Contact")}</Button>
+          </Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall
+          style={{ width: "180px" }}
+          onClick={() => window.location.href='https://github.com/Code-Nostradamus/nostradamus'}
+        >
+          <Span>
+            <SvgIcon src="github.svg" width="20px" height="20px" />
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -63,7 +71,7 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="logo.svg" width="200px" height="100px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

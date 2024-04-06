@@ -1,16 +1,21 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "High Privacy, Local Operation, and Open Source",
+  "text": "Nostradamus not only prioritizes your privacy and offers fully local operation capabilities but also stands as an open-source beacon, inviting collaboration and fostering innovation. Choose your preferred Large Language Model (LLM) like GPT-4 (Turbo), GPT 3.5, Claude Opus, Gemini, DBRX, Llama2, Mistral, OpenChat, or others to tailor Nostradamus precisely to your project's needs.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Why Local?",
+      "content": "Operating locally ensures the utmost privacy and security for your codebase, eliminating external data transmission concerns.",
+      "icon": "privacy.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Flexibility and Choice",
+      "content": "Select from a vast array of cutting-edge LLMs to customize Nostradamus for your unique development environment.",
+      "icon": "customizable.svg"
+    },
+    {
+      "title": "Open Source Advantage",
+      "content": "Join a thriving community driving Nostradamus forward. Contribute, customize, and collaborate on the open-source platform that’s reshaping how we understand and interact with code.",
+      "icon": "github.svg"
     }
   ]
 }

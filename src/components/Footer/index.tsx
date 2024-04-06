@@ -47,7 +47,7 @@ const Footer = ({ t }: any) => {
 
   return (
     <>
-      <FooterSection>
+      <FooterSection id={"footer"}>
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
@@ -56,11 +56,11 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="https://t.me/rodion_m_tg">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            <Col lg={8} md={8} sm={12} xs={12} hidden={true}>
               <Title>{t("Policy")}</Title>
               <Large to="/" left="true">
                 {t("Application Security")}
@@ -69,7 +69,7 @@ const Footer = ({ t }: any) => {
                 {t("Software Principles")}
               </Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            <Col lg={6} md={6} sm={12} xs={12} hidden={true}>
               <Empty />
               <Large left="true" to="/">
                 {t("Support Center")}
@@ -80,14 +80,14 @@ const Footer = ({ t }: any) => {
             </Col>
           </Row>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+            <Col lg={10} md={10} sm={12} xs={12} hidden={true}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Natarova 71</Para>
+              <Para>Almaty</Para>
+              <Para>Kazakhstan</Para>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            <Col lg={8} md={8} sm={12} xs={12} hidden={true}>
               <Title>{t("Company")}</Title>
               <Large left="true" to="/">
                 {t("About")}
@@ -102,7 +102,7 @@ const Footer = ({ t }: any) => {
                 {t("Careers & Culture")}
               </Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            <Col lg={6} md={6} sm={12} xs={12} hidden={true}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -113,9 +113,10 @@ const Footer = ({ t }: any) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
+                {/*Russian language is hidden because of 'hidden={true}'*/}
+                <LanguageSwitch onClick={() => handleChange("ru")} hidden={true}>
                   <SvgIcon
-                    src="spain.svg"
+                    src="ru.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
@@ -138,34 +139,16 @@ const Footer = ({ t }: any) => {
                 <SvgIcon
                   src="logo.svg"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="200px"
+                  height="150px"
                 />
               </LogoContainer>
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/Code-Nostradamus/nostradamus"
                 src="github.svg"
               />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>
