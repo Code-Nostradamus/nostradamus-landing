@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Code-Nostradamus/nostradamus-landing/static/css/main.47c8eccf.css",
-    "main.js": "/Code-Nostradamus/nostradamus-landing/static/js/main.f4a27822.js",
-    "static/js/882.b7cd400d.chunk.js": "/Code-Nostradamus/nostradamus-landing/static/js/882.b7cd400d.chunk.js",
-    "static/js/676.97fe9f7b.chunk.js": "/Code-Nostradamus/nostradamus-landing/static/js/676.97fe9f7b.chunk.js",
-    "static/js/416.a9e41c58.chunk.js": "/Code-Nostradamus/nostradamus-landing/static/js/416.a9e41c58.chunk.js",
-    "static/js/561.110fb6df.chunk.js": "/Code-Nostradamus/nostradamus-landing/static/js/561.110fb6df.chunk.js",
-    "static/js/328.68b5dafb.chunk.js": "/Code-Nostradamus/nostradamus-landing/static/js/328.68b5dafb.chunk.js",
-    "static/js/829.3743877d.chunk.js": "/Code-Nostradamus/nostradamus-landing/static/js/829.3743877d.chunk.js",
-    "static/js/886.b75b94fb.chunk.js": "/Code-Nostradamus/nostradamus-landing/static/js/886.b75b94fb.chunk.js",
-    "index.html": "/Code-Nostradamus/nostradamus-landing/index.html",
-    "main.47c8eccf.css.map": "/Code-Nostradamus/nostradamus-landing/static/css/main.47c8eccf.css.map",
-    "main.f4a27822.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/main.f4a27822.js.map",
-    "882.b7cd400d.chunk.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/882.b7cd400d.chunk.js.map",
-    "676.97fe9f7b.chunk.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/676.97fe9f7b.chunk.js.map",
-    "416.a9e41c58.chunk.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/416.a9e41c58.chunk.js.map",
-    "561.110fb6df.chunk.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/561.110fb6df.chunk.js.map",
-    "328.68b5dafb.chunk.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/328.68b5dafb.chunk.js.map",
-    "829.3743877d.chunk.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/829.3743877d.chunk.js.map",
-    "886.b75b94fb.chunk.js.map": "/Code-Nostradamus/nostradamus-landing/static/js/886.b75b94fb.chunk.js.map"
+    "main.css": "/nostradamus-landing/static/css/main.47c8eccf.css",
+    "main.js": "/nostradamus-landing/static/js/main.ea6199ca.js",
+    "static/js/882.b7cd400d.chunk.js": "/nostradamus-landing/static/js/882.b7cd400d.chunk.js",
+    "static/js/676.97fe9f7b.chunk.js": "/nostradamus-landing/static/js/676.97fe9f7b.chunk.js",
+    "static/js/416.a9e41c58.chunk.js": "/nostradamus-landing/static/js/416.a9e41c58.chunk.js",
+    "static/js/561.110fb6df.chunk.js": "/nostradamus-landing/static/js/561.110fb6df.chunk.js",
+    "static/js/328.68b5dafb.chunk.js": "/nostradamus-landing/static/js/328.68b5dafb.chunk.js",
+    "static/js/829.3743877d.chunk.js": "/nostradamus-landing/static/js/829.3743877d.chunk.js",
+    "static/js/886.b75b94fb.chunk.js": "/nostradamus-landing/static/js/886.b75b94fb.chunk.js",
+    "index.html": "/nostradamus-landing/index.html",
+    "main.47c8eccf.css.map": "/nostradamus-landing/static/css/main.47c8eccf.css.map",
+    "main.ea6199ca.js.map": "/nostradamus-landing/static/js/main.ea6199ca.js.map",
+    "882.b7cd400d.chunk.js.map": "/nostradamus-landing/static/js/882.b7cd400d.chunk.js.map",
+    "676.97fe9f7b.chunk.js.map": "/nostradamus-landing/static/js/676.97fe9f7b.chunk.js.map",
+    "416.a9e41c58.chunk.js.map": "/nostradamus-landing/static/js/416.a9e41c58.chunk.js.map",
+    "561.110fb6df.chunk.js.map": "/nostradamus-landing/static/js/561.110fb6df.chunk.js.map",
+    "328.68b5dafb.chunk.js.map": "/nostradamus-landing/static/js/328.68b5dafb.chunk.js.map",
+    "829.3743877d.chunk.js.map": "/nostradamus-landing/static/js/829.3743877d.chunk.js.map",
+    "886.b75b94fb.chunk.js.map": "/nostradamus-landing/static/js/886.b75b94fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47c8eccf.css",
-    "static/js/main.f4a27822.js"
+    "static/js/main.ea6199ca.js"
   ]
 }
