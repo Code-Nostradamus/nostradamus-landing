@@ -102,7 +102,7 @@ const Footer = ({ t }: any) => {
                 {t("Careers & Culture")}
               </Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12} hidden={true}>
+            <Col lg={6} md={6} sm={12} xs={12} hidden={false}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -113,8 +113,8 @@ const Footer = ({ t }: any) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-                {/*Russian language is hidden because of 'hidden={true}'*/}
-                <LanguageSwitch onClick={() => handleChange("ru")} hidden={true}>
+                {/*Russian language can be hidden by 'hidden={true}'*/}
+                <LanguageSwitch onClick={() => handleChange("ru")} hidden={false}>
                   <SvgIcon
                     src="ru.svg"
                     aria-label="homepage"
